@@ -1,33 +1,24 @@
-import { Container, Content} from './styles'
+import { Container} from './styles'
 
 export function Header() {
     return (
         <>
         <Container>
-            <Content>
-            <div>
+           <header id='main-header'>
+           
+           <div id='menu-left'>
+                <a id='aNext'>next</a>
+                <a id='aBarra'>|</a>
+                <a id='mkt'>MARKETPLACE</a>
+           </div>
 
-            <a id='aNext'>next</a>
-            <a id='aBarra'>|</a>
-            <a id='mkt'>MARKETPLACE</a>
-            </div>
-
-                
-                    <div id='divButton'>
-
-                    <a id='btlua'>                    
-                   
-                    </a>
-                    <button id='btmenu'>
-                    bt2                   
-                    </button>
-                    <button id='btperfil'>
-                    bt3                   
-                    </button>
-                    </div>
+           <div id='menu-right'>                    
+                <ul><img src="" alt="" />BT1</ul>
                     
-                            
-            </Content>            
+           </div>
+
+           </header> 
+           
         </Container>
         </>
     )
